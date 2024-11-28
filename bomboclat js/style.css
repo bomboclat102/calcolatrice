@@ -1,0 +1,43 @@
+.casella {
+  width: 10vh;
+  height: 10vh;
+  background: 10vh;
+  text-align: center;
+  line-height: 10vh;
+  background-color: rgb(177, 177, 177);
+  border-radius: 30px;
+  font-size: 3vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#tabella {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.2vw;
+  padding: 1vw;
+}
+#bottoni {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+button {
+  width: 14vw;
+  height: 8vh;
+  justify-content: center;
+  gap: 10px;
+  font-size: 2vw;
+  background-color: rgb(54, 54, 54);
+  color: rgb(245, 245, 245);
+}
+button:hover {
+  background-color: rgb(109, 109, 109);
+}
+button:active {
+  background-color: rgb(37, 37, 37);
+}
